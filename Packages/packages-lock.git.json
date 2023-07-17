@@ -1,0 +1,9 @@
+{
+    "dependencies": [
+        {
+            "name": "com.qhenshaw.charactermovement",
+            "hash": "384729a25a16d6e4335df290425e53b27889133e",
+            "url": "https://github.com/qhenshaw/CharacterMovement.git"
+        }
+    ]
+}

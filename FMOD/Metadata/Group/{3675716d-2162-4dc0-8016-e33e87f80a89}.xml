@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{3675716d-2162-4dc0-8016-e33e87f80a89}">
+		<property name="name">
+			<value>NPCSFX</value>
+		</property>
+		<relationship name="masters">
+			<destination>{d6098987-39f3-4aa3-8a9f-7f6abdafed0a}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{a345c60e-d4c2-476a-8df9-aa8f51445014}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{7c70b73a-1878-4f73-a144-10ae6bbe14a7}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{fd354eed-d229-4a55-a0ab-8ed4aa1f6b44}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{a345c60e-d4c2-476a-8df9-aa8f51445014}">
+		<relationship name="effects">
+			<destination>{fe6759e4-f2d5-489d-b14c-4cb83690835d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{7c70b73a-1878-4f73-a144-10ae6bbe14a7}" />
+	<object class="MixerBusFader" id="{fe6759e4-f2d5-489d-b14c-4cb83690835d}" />
+</objects>

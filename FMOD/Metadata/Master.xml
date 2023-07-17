@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerMaster" id="{fd354eed-d229-4a55-a0ab-8ed4aa1f6b44}">
+		<property name="name">
+			<value>Master Bus</value>
+		</property>
+		<relationship name="automators">
+			<destination>{e0b05be0-e693-4d89-b611-c0246ebd7ad3}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{3b611a1d-53d7-4d76-9702-33f7b0a2546a}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8cd21cd4-c260-4d17-b7ae-28faefb2822c}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{a411aa95-e250-4143-8c2e-069c398563d5}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{e0b05be0-e693-4d89-b611-c0246ebd7ad3}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{7b3ee0a9-33a6-46f6-bf83-15bc41417daa}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{3b611a1d-53d7-4d76-9702-33f7b0a2546a}">
+		<relationship name="effects">
+			<destination>{5e5e09f0-9357-4b28-bf82-ff46441c387e}</destination>
+			<destination>{5c64975a-c5cc-43c6-9f33-3b9405defa9b}</destination>
+			<destination>{0de2e037-1e01-49f4-919a-2885f28a1f44}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8cd21cd4-c260-4d17-b7ae-28faefb2822c}">
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+	</object>
+	<object class="AutomationCurve" id="{7b3ee0a9-33a6-46f6-bf83-15bc41417daa}">
+		<relationship name="parameter">
+			<destination>{e2e00a0c-f32a-400c-b21c-f718f4e53893}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{f30d900b-ab8a-4f70-9100-9e640aea60a2}</destination>
+			<destination>{5af9d7de-9043-4b39-8514-bbbd1882748b}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{5e5e09f0-9357-4b28-bf82-ff46441c387e}" />
+	<object class="LimiterEffect" id="{5c64975a-c5cc-43c6-9f33-3b9405defa9b}">
+		<property name="ceiling">
+			<value>-1</value>
+		</property>
+	</object>
+	<object class="LoudnessMeter" id="{0de2e037-1e01-49f4-919a-2885f28a1f44}">
+		<property name="loudnessTarget">
+			<value>-18</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{f30d900b-ab8a-4f70-9100-9e640aea60a2}">
+		<property name="position">
+			<value>0.97881355932203395</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{5af9d7de-9043-4b39-8514-bbbd1882748b}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+</objects>

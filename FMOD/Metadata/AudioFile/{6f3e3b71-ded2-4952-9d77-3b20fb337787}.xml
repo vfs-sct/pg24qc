@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{6f3e3b71-ded2-4952-9d77-3b20fb337787}">
+		<property name="assetPath">
+			<value>SFX/CarHorn/63 - Cartoon, Horn Taxi Horn, Single Honk -01 4001 63-2 Cartoon, Horn Taxi Horn, Dou.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.22002267573696146</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0007398a-8526-4222-84a0-9fc057cc09e5}</destination>
+		</relationship>
+	</object>
+</objects>
